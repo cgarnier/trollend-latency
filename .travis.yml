@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '6'
+install:
+- npm install
+deploy:
+  - provider: npm
+    on:
+      tags: true
+      all_branches: true
+    email: cle.garnier@gmail.com
+    api_key: 'none'
+script:
+- npm test
