@@ -9,6 +9,7 @@ deploy:
       tags: true
       all_branches: true
     email: cle.garnier@gmail.com
-    api_key: 'none'
+    api_key:
+      secure: oUdMABuC3vcc9EhisbhJjqQ7oxz4E7KJ5+3oi7bJI3qRHMmTQDGA9FCz9uciyL4lFxx1z/n0uRPO/hNDE4TEek6Ebyfe96xG3PS347NisXnENtwRVc0DXBVBsRaM4RpZbJ1ZE6pVL1ahwTmUSS7zCO/NBae0jp7mzUDhuYOs5cFI2atqJExxSBsrEw4T64bDbyLLfzJeS0gh3WWv1rU0ZN6Jp37tUNjrD/HGMgHFIIo5ZV9nNPvlywtcLTinsWfqPP/Y1JXrw6HfK+rUgpTvHMPKnwa9rVWIC9ZRdP0uONWZqDPJArq4v2qsrjAWYYchTSm1WTbM48lnz7UwKW4xtiNAQzoHlTZqlpPozJ1K8QIzABHQkfrWmblrVhLCRG3sUW5/20pt2CG5AawqMZ9hN+Uq9FVb2ubpnm1SpZ5dnCyjEFrbmMmW2THzx5i2zNaY8as3ua1029iUDbGzO0JvveZ69cs4QjZYtUITbn8+0Az5VNO7ZAHwrn7s++jmJfRwm1+DzYbBqsIgqezRx3K+tOYbfXPahuW8Lw7Wj27/sC+T4ka4Sco6Ubor+rc4JU80DSsQVuKC2f4Ev+9GNNrc5X8VUmYTdViXUwEzEZy2Epa0wvHSzaoyAAkZNuF5L9BMQm/foYDqVNGTW22L6spGkCeRh9wuKP4FqZ+xMiMgIEU=
 script:
 - npm test
